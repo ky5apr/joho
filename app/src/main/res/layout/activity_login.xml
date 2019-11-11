@@ -4,6 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
     tools:context=".Login">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:text="学籍番号"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="123dp" />
 </android.support.constraint.ConstraintLayout>
